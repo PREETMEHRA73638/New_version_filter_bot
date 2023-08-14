@@ -1612,7 +1612,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
             reply_markup = InlineKeyboardMarkup(btn)
             await query.message.edit_text(
-                text=(script.TELEGRAPH_TXT),
+                text=script.TELEGRAPH_TXT, 
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )
@@ -1628,7 +1628,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
             reply_markup = InlineKeyboardMarkup(btn)
             await query.message.edit_text(
-                text=(script.YTDL_TXT),
+                text=script.YTDL_TXT,
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )  

@@ -1601,7 +1601,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "tele":
-            buttonn = [[
+            buttons = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
                     InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/creatorrio")
                   ]]
@@ -1610,14 +1610,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 query.message.id, 
                 InputMediaPhoto(random.choice(PICS))
             )
-            reply_markup = InlineKeyboardMarkup(btn)
+            reply_markup = InlineKeyboardMarkup(buttons)
             await query.message.edit_text(
                 text=(script.TELEGRAPH_TXT),
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )
     elif query.data == "ytdl":
-            button = [[
+            buttons = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
                     InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/creatorrio")
                   ]]
@@ -1626,7 +1626,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 query.message.id, 
                 InputMediaPhoto(random.choice(PICS))
             )
-            reply_markup = InlineKeyboardMarkup(btn)
+            reply_markup = InlineKeyboardMarkup(buttons)
             await query.message.edit_text(
                 text=(script.YTDL_TXT),
                 reply_markup=reply_markup,

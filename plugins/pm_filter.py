@@ -1601,9 +1601,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "tele":
+     elif query.data == "tele":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/KUSHALHK")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/creatorrio")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -1612,14 +1613,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
             reply_markup = InlineKeyboardMarkup(btn)
             await query.message.edit_text(
-                text=script.TELEGRAPH_TXT, 
+                text=(script.TELEGRAPH_TXT),
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )
     elif query.data == "ytdl":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/KUSHALHK")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/creatorrio")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -1628,7 +1629,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
             reply_markup = InlineKeyboardMarkup(btn)
             await query.message.edit_text(
-                text=script.YTDL_TXT,
+                text=(script.YTDL_TXT),
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )  

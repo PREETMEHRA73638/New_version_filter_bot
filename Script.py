@@ -62,16 +62,18 @@ Do as you wish with telegra.ph module!
 
 </b>USAGE:</b>
 
-🤧 /telegraph - Send me this command reply with Picture or Vide Under (5MB) 
+😳 /telegraph - Send me this command reply with Picture or Vide Under (5MB) 
 
 <b>NOTE:</b>
 
 • This Command Is Available in goups and pms
-• This Command Can be used by everyone"""
+• This Command Can be used by everyone
+
+• Contact Owner: @KUSHALHK"""
 
     YTDL_TXT = """<b>𝚈𝙾𝚄𝚃𝚄𝙱𝙴 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝙳𝚄𝙻𝙴</b>
 
-🍁 𝘜𝘴𝘢𝘨𝘦
+♨️ 𝘜𝘴𝘢𝘨𝘦
 𝘠𝘰𝘶 𝘊𝘢𝘯 𝘋𝘰𝘸𝘯𝘭𝘰𝘢𝘥 𝘈𝘯𝘺 𝘝𝘪𝘥𝘦𝘰 𝘖𝘳 𝘈𝘶𝘥𝘪𝘰 𝘍𝘳𝘰𝘮 𝘠𝘰𝘶𝘵𝘶𝘣𝘦
 
 𝙃𝙤𝙬 𝙏𝙤 𝙐𝙨𝙚
@@ -81,7 +83,9 @@ Do as you wish with telegra.ph module!
 • 𝘌𝘹𝘢𝘮𝘱𝘭𝘦:
 <code>/song kantara</code>
 <code>/mp4 https://youtu.be/*******</code>
-<code>/video https://youtu.be/*****</code>  """
+<code>/video https://youtu.be/*****</code>  
+
+• Owner: @KUSHALHK"""
 
     RULE_TXT = """<b>♨️ 𝗚𝗥𝗢𝗨𝗣 𝗥𝗨𝗟𝗘𝗦 ♨️</b>
 

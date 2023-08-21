@@ -5,7 +5,7 @@ import requests,os,wget
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import asyncio
 from info import LOG_CHANNEL
-BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('💖🇮🇳✨ Made By ✨🇮🇳💖', url='https://t.me/nasrani_update')]])
+BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('💖🇮🇳✨ Made By ✨🇮🇳💖', url='https://t.me/TG_UPDATES1')]])
 A = """{} with user id:- {} used /saavn command."""
 B = """{} with user id:- {} used /vsaavn command."""
 

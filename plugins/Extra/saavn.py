@@ -58,7 +58,7 @@ async def video(client, message):
     video=ffile, caption=f"[{sname}]({r['data']['results'][0]['url']}) - from @TG_UPDATES1 ",thumb=thumbnail,
     reply_markup=InlineKeyboardMarkup(buttons)
 )
-    await message.reply_text(text="download mp3 song @nasrani_batch_store")
+    await message.reply_text(text="download mp3 song @TG_LINKS_CHANNEL")
     os.remove(ffile)
     os.remove(thumbnail)
     await pak.delete()

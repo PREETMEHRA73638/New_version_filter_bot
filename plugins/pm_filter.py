@@ -1440,7 +1440,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🧊 Exᴛʀᴀ Mᴏᴅs 🧊', callback_data='extra')
         ], [
             InlineKeyboardButton('📝 𝐓𝐄𝐋𝐄𝐆𝐑𝐀𝐏𝐇 ✏️', callback_data='tele'),
-            InlineKeyboardButton('🎵 𝐘𝐓-𝐃𝐋 🎵', callback_data='ytdl')
+            InlineKeyboardButton('🎵 𝐌𝐔𝐒𝐈𝐂 🎵', callback_data='song'), 
         ], [
             InlineKeyboardButton('♻️ ꜱᴛɪᴄᴋᴇʀ ♻️', callback_data='sticker'), 
             InlineKeyboardButton('❤‍🔥 ᴋᴀɴɢ ❤‍🔥', callback_data='kang') 
@@ -1637,7 +1637,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )
-    elif query.data == "ytdl":
+    elif query.data == "song":
             buttons = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
                     InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/KUSHALHK")
@@ -1649,7 +1649,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
             reply_markup = InlineKeyboardMarkup(buttons)
             await query.message.edit_text(
-                text=(script.YTDL_TXT),
+                text=(script.SONG_TXT),
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )  

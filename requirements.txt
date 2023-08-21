@@ -42,8 +42,6 @@ dnspython==2.3.0
 shortzy
 datetime
 
-yrogram>=2.0.30
-Heroku3
 search_engine_parser
 
 ffmpeg

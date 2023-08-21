@@ -71,6 +71,19 @@ Do as you wish with telegra.ph module!
 
 • Contact Owner: @KUSHALHK"""
 
+    STICKER_TXT = """<b>yᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴛʜɪꜱ ᴍᴏᴅᴜʟᴇ ᴛᴏ ꜰɪɴᴅᴀɴy  ꜱᴛɪᴄᴋᴇʀꜱ ɪᴅ.
+• ᴜꜱᴀɢᴇ :ᴛᴏ ɢᴇᴛ ꜱᴛɪᴄᴋᴇʀ
+ 
+⭕ ʜᴏᴡ ᴛᴏ ᴜꜱᴇ
+◉ Reply To Any Sticker [/stickerid]
+
+/𝐬𝐭𝐢𝐜𝐤𝐞𝐫𝐢𝐝 𝐬𝐭𝐢𝐜𝐤𝐞𝐫 𝐢𝐝
+/𝐠𝐞𝐭𝐬𝐭𝐢𝐜𝐤𝐞𝐫 𝐜𝐫𝐞𝐚𝐭𝐞 𝐬𝐮𝐩𝐩𝐫𝐚𝐭𝐞 𝐬𝐭𝐢𝐜𝐤𝐞𝐫
+/𝐟𝐢𝐧𝐝𝐬𝐭𝐢𝐜𝐤𝐞𝐫 𝐬𝐭𝐢𝐜𝐤𝐞𝐫 𝐢𝐝 𝐭𝐨 𝐬𝐭𝐢𝐜𝐤𝐞𝐫
+
+</b>"""
+
+
     YTDL_TXT = """<b>𝚈𝙾𝚄𝚃𝚄𝙱𝙴 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝙳𝚄𝙻𝙴</b>
 
 ♨️ 𝘜𝘴𝘢𝘨𝘦
@@ -86,6 +99,12 @@ Do as you wish with telegra.ph module!
 <code>/video https://youtu.be/*****</code>  
 
 • Owner: @KUSHALHK"""
+
+    KANG = """
+𝐂𝐫𝐞𝐚𝐭𝐞 𝐎𝐰𝐧 𝐒𝐭𝐢𝐜𝐤𝐞𝐫 𝐀𝐧𝐝 𝐒𝐭𝐢𝐜𝐤𝐞𝐫 𝐏𝐚𝐜𝐤
+𝐒𝐞𝐧𝐝 𝐓𝐨 𝐈𝐦𝐚𝐠𝐞
+𝐑𝐞𝐩𝐥𝐲 𝐭𝐨 𝐢𝐦𝐚𝐠𝐞 𝐚𝐧𝐝 𝐬𝐞𝐧𝐝 /𝐤𝐚𝐧𝐠 𝐂𝐨𝐦𝐦𝐚𝐧𝐝
+"""
 
     RULE_TXT = """<b>♨️ 𝗚𝗥𝗢𝗨𝗣 𝗥𝗨𝗟𝗘𝗦 ♨️</b>
 

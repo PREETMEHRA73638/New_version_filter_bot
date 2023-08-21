@@ -17,7 +17,6 @@ umongo==3.0.1
 motor==2.5.1
 
 #---ytdl----#
-youtube-search-python
 youtube-search
 yt-dlp==2023.2.17
 
@@ -42,3 +41,28 @@ pytz
 dnspython==2.3.0
 shortzy
 datetime
+
+yrogram>=2.0.30
+Heroku3
+search_engine_parser
+aiofiles
+ffmpeg
+youtube-search-python==1.4.6
+youtube-dl
+PyPDF2
+pyshorteners
+countryinfo
+python-math
+psutil==5.9.4
+speedtest-cli
+python-dotenv
+openai==0.25.0
+python-telegram-bot==12.8
+doodstream
+unshortenit
+mdisky
+
+### googletrans==4.0.0-rc1 ###
+python-decouple
+ytthumb
+YoutubeTags

@@ -45,7 +45,7 @@ datetime
 yrogram>=2.0.30
 Heroku3
 search_engine_parser
-aiofiles
+
 ffmpeg
 youtube-search-python==1.4.6
 youtube-dl

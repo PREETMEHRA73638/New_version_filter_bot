@@ -1441,6 +1441,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ], [
             InlineKeyboardButton('📝 𝐓𝐄𝐋𝐄𝐆𝐑𝐀𝐏𝐇 ✏️', callback_data='tele'),
             InlineKeyboardButton('🎵 𝐌𝐔𝐒𝐈𝐂 🎵', callback_data='song'), 
+            InlineKeyboardButton('ᴜʀʟ_sʜᴏʀᴛ', callback_data='urlshort')
         ], [
             InlineKeyboardButton('♻️ ꜱᴛɪᴄᴋᴇʀ ♻️', callback_data='sticker'), 
             InlineKeyboardButton('❤‍🔥 ᴋᴀɴɢ ❤‍🔥', callback_data='kang') 
@@ -1618,6 +1619,22 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup(buttons)
             await query.message.edit_text(
                 text=(script.TELEGRAPH_TXT),
+                reply_markup=reply_markup,
+                parse_mode=enums.ParseMode.HTML
+            )
+    elif query.data == "urlshort":
+            buttons = [[
+                    InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/KUSHALHK")
+                  ]]
+            await client.edit_message_media(
+                query.message.chat.id, 
+                query.message.id, 
+                InputMediaPhoto(random.choice(PICS))
+            )
+            reply_markup = InlineKeyboardMarkup(buttons)
+            await query.message.edit_text(
+                text=(script.URLSHORT_TXT),
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )

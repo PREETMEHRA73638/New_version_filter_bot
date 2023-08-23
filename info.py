@@ -43,28 +43,28 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Auto-filter-bot:777@cluster0.8fx30a8.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'moneykamalo.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'c709b21b7fc8f59921307c73e6abb6f7a2bbf53c')
-SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'moneykamalo.com')
-SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', 'c709b21b7fc8f59921307c73e6abb6f7a2bbf53c')
+VERIFY = bool(environ.get('VERIFY', true))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Mdiskshortner.link')
+SHORTLINK_API = environ.get('SHORTLINK_API', '9d4a43fbee3318302956c9b43f7d69a376ff52a0')
+SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'Mdiskshortner.link')
+SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '9d4a43fbee3318302956c9b43f7d69a376ff52a0')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/TG_SUPPORT_GROUP')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/TG_LINKS_CHANNEL')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/TG_UPDATES1/342')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Hindi_movies_villa')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Movies_villa78')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/update_channel_738/2')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', '➕ just add me your group see my power🤘')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TG_SUPPORT_GROUP')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001801078849'))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Movies_villa78')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
@@ -77,12 +77,12 @@ LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False")
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1001601945988')).split()]
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
-LANGUAGES = ["malayalam", "mal", "tamil", "tam" ,"english", "eng", "hindi", "hin", "telugu", "tel", "kannada", "kan"]
+LANGUAGES = ["malayalam", "mal", "tamil", "tam" ,"english", "eng", "hindi", "hin", "telugu", "tel", "kannada", "kan", "punjabi"]
 
 SEASONS = ["season 1" , "season 2" , "season 3" , "season 4", "season 5" , "season 6" , "season 7" , "season 8" , "season 9" , "season 10"]
 
